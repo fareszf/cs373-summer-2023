@@ -1,0 +1,102 @@
+﻿- Software Engineering:
+The concept first appeared at a NATO conference in Germany in 1968 to handle a software crisis.
+
+The causes of the software crisis were linked to the overall complexity of hardware 
+and the software development process. 
+The crisis manifested itself in several ways:
+•	Projects running over-budget
+•	Projects running over-time
+•	Software was very inefficient
+•	Software was of low quality
+•	Software often did not meet requirements
+•	Projects were unmanageable and code was difficult to maintain
+Source: https://en.wikipedia.org/wiki/Software_crisis
+
+Software activities (or processes) vs Software development models
+• Activities required to develop a software system. 
+Activities include analysis, design, implementation, verification and validation (testing), and maintenance. 
+• A software development model is an abstract representation of a process. It presents a description 
+of a process from some particular perspective.
+Basic development models are waterfall, incremental, and reuse-oriented software development.
+Source: Sommerville, Software Engineering, 10 ed., Chapter 2
+
+Software Engineering: Software engineering is concerned with theories, methods and tools 
+for professional software development.
+According to IEEE’s definition software engineering can be defined as the application of 
+a systematic, disciplined, quantifiable approach to the development, operation, and maintenance 
+of software, and the study of these approaches; that is, the application of engineering to software.
+
+•	Comments in Python:
+ 	#   : for one line 
+	''' : for a multi-line comment
+
+• if __name__ == "__main__" :
+     main()
+
+main() is executed only if the file, which contain "main()", is run directly, and not imported.
+
+Note: __name__ is an attribute that is automatically set and has the value "__main__" only 
+if the file is executed as a script (not if it is imported as a module).
+
+•	Script vs module:
+	Script: a directly executable piece of code (run by itself).
+	Module: a library, imported by another piece of code.
+
+•	cProfile: 
+an optimization tool that is used to diagnose what makes a program slow.
+The output of applying this tool to a Python script includes information such as total running time,
+ time of each separate function, and how many times each function is executed.
+
+•	-m flag
+ allow us to run a module such as cProfile as a script.
+
+•	range(): returns an object which produces elements on demand. 
+
+•	Three ways to execute a Hello.py
+	type in the shell: "python Hello.py"
+	give executable permission to the file and type in the shell: "Hello.py"
+	run the Python interpreter and type in: "import Hello"
+
+•	#! /usr/bin/env python3
+	It's a commented line for Python 
+	Informs the OS that this file should be run by Python.
+
+In a Unix-like operating system, the program loader takes the presence of these two characters 
+as an indication that the file is a script, and tries to execute that script using the interpreter 
+specified by the rest of the first line in the file.
+
+
+- Collatz Conjecture
+
+take a pos int
+if even, divide by 2
+if odd, multiply by 3 and add 1
+repeat until 1
+
+5, 16, 8, 4, 2, 1
+cycle length of 5 is 6
+cycle length of 10 is 7
+
+- Assertions
+assertions are good computational comments and they're invaluable to a future maintainer of the code
+
+an assertion failure reports 
+•	the filename, 
+•	the function name, 
+•	the line number, and 
+•	the expression where the failure occurred
+
+executing Python with -O turns off all assertions
+
+assertions are not appropriate for testing code
+unit test frameworks like Python's unittest are
+
+assert is NOT good for testing
+assert is NOT good for user error
+
+they are appropriate for programmer errors
+exceptions will be the correct tool for user errors
+
+When an assertion fails, it stops the program. When I am testing a program. 
+I do not want the program to stop. I need to complete all tests. 
+That's why we use unit testing. 
