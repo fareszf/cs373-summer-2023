@@ -4,7 +4,7 @@
 # Exceptions.py
 # -------------
 
-# https://docs.python.org/3.6/library/exceptions.html
+# https://docs.python.org/3.8/library/exceptions.html
 
 def f (b) :
     if b :

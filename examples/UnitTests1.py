@@ -4,8 +4,8 @@
 # UnitTests1.py
 # -------------
 
-# https://docs.python.org/3.6/library/unittest.html
-# https://docs.python.org/3.6/library/unittest.html#assert-methods
+# https://docs.python.org/3.8/library/unittest.html
+# https://docs.python.org/3.8/library/unittest.html#assert-methods
 
 from unittest import main, TestCase
 
