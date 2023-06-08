@@ -15,10 +15,10 @@ You need to do the following.
 	The output will be displayed in the window underneath the button to the left.
     
 	- Another option is to use this file 
-	https://gitlab.com/fareszf/collatz_calculator/-/blob/master/collatz_cal.cpython36.pyc
+	https://gitlab.com/fareszf/collatz_calculator/-/blob/master/collatz_cal.cpython-38.pyc
 	On *UTCS machines*, the comamand is:
 
-	python3 collatz_cal.cpython36.pyc < input > output
+	python3 collatz_cal.cpython-38.pyc < input > output
 	
 	where input is a text file of the inputs and output is a location for the output. 
 	This is compiled on a CS machine so it will work there. Not sure if it works on other machines. 
