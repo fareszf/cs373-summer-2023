@@ -70,7 +70,7 @@ reduce:
 -------------
 
 
-Inrodcution to iterables: 
+Inrodcution to iterables (iteration.py): 
 ------------------------
 Iterables:
 - an iterable is an object that you can iterate through.
@@ -106,3 +106,5 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 StopIteration
 >>>
+
+
