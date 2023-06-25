@@ -158,25 +158,4 @@ all([]) = True
 Lines 186: any() # any(iterable): Return True if any element of the iterable is true. If the iterable is empty, return False.
 any([]) = False
 https://docs.python.org/3.5/library/functions.html#all
--------------------------
-map function:
-------------
-map(function_to_apply, list_of_inputs)
 
-Example
->>> items = [1, 2, 3, 4, 5]
->>> squared = list(map(lambda x: x**2, items))
->>> squared
-[1, 4, 9, 16, 25]
->>>
-
-
-- map_range_for (uf, a) :
-  demands "a" to be indexable
-
-- map_for (uf, a) :
-  demands "a" to be an iterable
-
-- map_while (uf, a) :
-  receives an iterable and generates an iterator
- 

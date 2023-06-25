@@ -70,7 +70,7 @@ reduce:
 -------------
 
 
-Inrodcution to iterables (iteration.py): 
+Introduction to iterables (iteration.py): 
 ------------------------
 Iterables:
 - an iterable is an object that you can iterate through.
